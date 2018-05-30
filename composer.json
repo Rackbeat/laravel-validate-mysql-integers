@@ -1,11 +1,17 @@
 {
 	"name": "rackbeat/laravel-validate-mysql-integers",
-	"description": "A package to adjust brightness from a hex colorcode",
+	"description": "Validation Rule to ensure a value is within valid Mysql Integer ranges.",
 	"keywords": [
-		"hex",
-		"color",
-		"brightness",
-		"php"
+		"laravel",
+		"validation",
+		"rule",
+		"integer",
+		"unsigned",
+		"int",
+		"bigint",
+		"tinyint",
+		"smallint",
+		"mysql"
 	],
 	"type": "library",
 	"license": "MIT",

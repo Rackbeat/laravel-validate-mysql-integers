@@ -19,6 +19,8 @@ You just require using composer and you're good to go!
 composer require rackbeat/laravel-validate-mysql-integers
 ```
 
+The Service Provider is automatically registered.
+
 ## Usage
 
 ### Class

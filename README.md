@@ -53,3 +53,6 @@ It can take an optional parameter to determine if its unsigned. Defaults to `fal
 
 ## Requirements
 * PHP >= 7.1
+
+## [Contributors](https://github.com/Rackbeat/laravel-validate-mysql-integers/graphs/contributors)
+

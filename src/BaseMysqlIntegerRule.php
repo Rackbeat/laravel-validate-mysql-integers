@@ -46,6 +46,6 @@ abstract class BaseMysqlIntegerRule implements Rule
 	 * @return string
 	 */
 	public function message() {
-		return ':attribute must be between :min and :max.';
+		return ':attribute must be between ' . $this->min . ' and ' . $this->max . '.';
 	}
 }

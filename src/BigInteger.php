@@ -12,7 +12,8 @@ class BigInteger extends BaseMysqlIntegerRule
      */
     public function passes($attribute, $value)
     {
-        return bccomp($value, $this->min) >= 0
+        return is_numeric($value)
+            && bccomp($value, $this->min) >= 0
             && bccomp($value, $this->max) <= 0;
     }
 
